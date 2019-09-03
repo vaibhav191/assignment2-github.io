@@ -1,0 +1,449 @@
+.container
+{
+    width: 100%;
+    height: auto;
+
+}
+header .container
+{
+    background-color: rgb(24, 228, 211);
+}
+.inner-container
+{   width: 80%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: auto;
+
+}
+.inner-container h4
+{
+    color: white;
+    font-weight: 650;
+}
+.working-hours
+{
+float: left;
+}
+.contact
+{
+float: right;
+}
+.clear
+{
+    clear: both;
+}
+.fix
+{   
+     width: 80%;
+    height: 6vh;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: auto;
+}
+.medi
+{
+    width: 10%;
+    height: 5vh;
+    padding:.5vh 0;
+    float: left;
+}
+
+.medi img
+{
+    height: 100%;
+}
+.headertags
+{
+    float: right;
+    width: 45%;
+    padding: 1vh 0;
+}
+.headertags ul li
+{   
+    padding-right: 4%;
+    display:inline-block;
+}
+.headertags a
+{   font-size: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.banner
+{   
+    background-image: url("../img/dummy/bg1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 60vh;
+    border: solid 1px rgba(236, 236, 236, 0.7);
+    border-radius: 5px;
+
+    
+}
+
+.innerbanner
+{   
+    width: 80%;
+    height: 100%;
+    margin:0 10%;
+    
+
+}
+
+.bannertext
+{   
+    height: 80%;
+    width: 50%;
+    margin:3% 0;
+    float: left;
+}
+.bannertext h1
+{
+    font-weight: bold;
+    font-size: 250%;
+}
+.bannertext h2
+{
+    font-weight: 55;
+    font-size: 150%;
+}
+.bannerimg
+{   
+    background-image: url("../img/dummy/img-1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: right;
+    width: 30vw;
+    margin: 3% 0;
+    height: 80%;
+ 
+}
+.whiteback
+{   border-radius: 8px;
+    background-color: rgba(255, 255, 255,0.7);
+    height: 70%;
+    padding-top: 01%;
+    margin-top: 4%;
+    padding-left: 4%;
+    float: left;
+}
+.whiteback h3
+{  
+    font-weight: 600;
+    margin-bottom: 1%;
+}
+.whiteback p
+{
+    margin:0% 0% 4% 1%;
+    color: rgb(107, 105, 105);
+}
+.whiteback li
+{   
+    list-style-type: circle;
+}
+.learn
+{   text-decoration: none;
+    color: white;
+    font-size: 100%;
+    margin-right: 10%;
+    float: right;
+    padding: 10px;
+    background-color:  rgb(24, 228, 211);
+    border-radius: 2px;
+
+}
+.innercontainer
+{   
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5%;
+
+}
+.innerdiv
+{  
+    width: 25%;
+    height: 25vh;
+    float: left;
+}
+.innerdiv img
+{   
+    margin-top: 5vh;
+    display: inline-block;
+    height: 50%;
+}
+.innerdiv h2
+{
+    font-weight: bold;
+    font-size: 120%;
+    margin-bottom: 5%;
+}
+.innerdiv p
+{
+    color: grey;
+}
+.innercontainer2
+{   
+    width: 80%;
+    margin: auto;
+    background-color: rgba(247, 238, 238, 0.829);
+    height: 8vw;;
+}
+.emergency
+{   float: left;
+}
+.emergency h2
+{   
+    padding-left: 2%;
+    margin-top: 5vh;
+    font-weight: bold;
+    font-size: 200%;
+}
+.emergency p
+{   padding-left: 2%;
+    margin-top: 1vh;
+}
+.appointment
+{
+    float: right;
+    padding: 1%;
+    background-color: rgb(24, 228, 211);
+    margin-top: 8vh;
+    margin-right: 2%;
+    border-radius: 5px;
+    border: 1px rgb(24, 228, 211) solid;
+    margin-bottom: 2vh;
+}
+.appointment a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+.container2
+{   
+    height: 60vh;
+    width: 100%;
+    margin: auto;
+    margin-top: 5vh;
+    background-color: rgba(247, 238, 238, 0.829);
+}
+.container2 h1
+{
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+    padding-top: 2%;
+}
+.container2 p
+{   
+    padding-top: 1%;
+    text-align: center;
+    color: grey;
+}
+.line
+{
+    border: solid 0.8px rgb(201, 197, 197);
+    width:5vw;
+    margin: 2% 48%;
+    height: 0px;
+    display: flex;
+    align-content: center;
+}
+.doctors
+{
+
+    width: 80%;
+    height: 30vh;
+    margin: auto;
+}
+.doctoritem
+{
+    float: left;
+
+    width: 25%;
+}
+.doctoritem img
+{
+    width: 85%;
+}
+.doctoritem h4
+{
+    font-weight: bold;
+    text-align: center;
+    color: aqua;
+    margin-top: 8%;
+
+}
+.doctoritem h5
+{
+    color: grey;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.facility
+{   
+    width: 80%;
+    margin: auto;
+    margin-top: 5vh;
+}
+.facility h4
+{
+    font-weight: bold;
+    text-align: center;
+    font-size: 200%;
+}
+.facility p
+{
+    text-align: center;
+    color: grey;
+    padding-top: 1%;
+}
+.facilityitem
+{
+    width: 20%;
+    padding-right: 5%;
+    margin-top: 3%;
+    float: left;
+    margin-bottom: 5%;
+}
+.facilityitem img
+{
+    width: 100%;
+}
+
+.banner2
+{
+    height: 70vh;
+    background-image: url("../img/dummy/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 5vh; 
+    position: relative;
+}
+.darker
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.gallery
+{
+    width: 80%;
+    margin: auto;
+}
+.testimonial
+{
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+}
+.testimonial img
+{
+    height: 100%;
+    border: 1px solid;
+    border-radius: 100%;
+    margin-left: 25%;
+}
+.txt
+{
+    background-color: white;
+    border: 1px black solid;
+    padding: 3%;
+    margin: 10%;
+}
+.txt h2
+{   padding-left: 2%;
+    text-align: left;
+    margin-top: 2%;
+    font-weight: bold;
+}
+.txt p
+{
+    padding-left: 2%;
+    margin-top: 2%;
+    color: grey;
+}
+.about
+{
+    text-align: center;
+    margin-top: 1.5%;
+}
+.about h3
+{
+    font-weight: bold;
+    color: white;
+    margin-bottom: 2%;
+}
+.about h4
+{
+    color: white;
+    font-weight: 200;
+}
+.partner
+{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5vh;
+
+}
+.partner h2
+{
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+}
+.partner p
+{
+    text-align: center;
+    color: grey;
+    margin: 3% 0;
+}
+
+
+.partner-image 
+{
+width: 20%;
+margin-right: 5%;
+float: left;
+}
+
+.ending
+{
+    background-color: rgba(247, 238, 238, 0.829);
+    height: 35vh;
+}
+.endingtext
+{
+    width: 80%;
+    margin: auto;
+}
+.items
+{
+    float: left;
+    width: 33%;
+}
+.items h2
+{
+    font-weight: bold;
+    margin-top: 7%;
+}
+.items p
+{
+    margin-top: 2%;
+    padding-right: 25%;
+    color: grey;
+}
+.items li
+{
+    color: grey;
+    margin-top: 2%;
+}
+.medicocenter p
+{
+    margin-bottom: 5%;
+}

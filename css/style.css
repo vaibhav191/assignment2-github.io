@@ -68,6 +68,10 @@ float: right;
     text-decoration: none;
     color: black;
 }
+.headertags a:hover
+{
+    color: rgb(24, 228, 211);
+}
 
 .banner
 {   
